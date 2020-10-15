@@ -3,6 +3,7 @@ const { demandOption, argv } = require('yargs')
 const yargs = require('yargs')
 const chalk = require('chalk')
 const notes = require('./notes')
+const lol=require('lol')
 
 yargs.command({
     command:'add',
