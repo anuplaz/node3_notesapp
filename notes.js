@@ -15,7 +15,8 @@ const addNote = (title, body) =>{
         console.log(chalk.green('New note added : '+title))
     }
     else{
-        console.log(chalk.red(`Note: ${title} already exists.`))
+	    console.log('Git rocks')
+	    console.log(chalk.red(`Note: ${title} already exists.`))
     }    
 }
 
