@@ -13,6 +13,7 @@ const addNote = (title, body) =>{
         })
         saveNotes(notes)
         console.log(chalk.green('New note added : '+title))
+	     console.log(chalk.red('New note added : '+title))
     }
     else{
 	    console.log('Git rocks')
