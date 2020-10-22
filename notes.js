@@ -17,6 +17,7 @@ const addNote = (title, body) =>{
     }
     else{
 	    console.log('Git rocks')
+	    console.log('Why didnt learn earlier');
 	    console.log(chalk.red(`Note: ${title} already exists.`))
     }    
 }
